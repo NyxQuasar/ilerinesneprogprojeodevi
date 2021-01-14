@@ -1,0 +1,17 @@
+C:\Users\T\Desktop\T\nasip\bin\Debug\nasip.exe.config
+C:\Users\T\Desktop\T\nasip\bin\Debug\nasip.exe
+C:\Users\T\Desktop\T\nasip\bin\Debug\nasip.pdb
+C:\Users\T\Desktop\T\nasip\obj\Debug\nasip.csprojAssemblyReference.cache
+C:\Users\T\Desktop\T\nasip\obj\Debug\nasip.Properties.Resources.resources
+C:\Users\T\Desktop\T\nasip\obj\Debug\nasip.csproj.GenerateResource.cache
+C:\Users\T\Desktop\T\nasip\obj\Debug\nasip.csproj.CoreCompileInputs.cache
+C:\Users\T\Desktop\T\nasip\obj\Debug\nasip.exe
+C:\Users\T\Desktop\T\nasip\obj\Debug\nasip.pdb
+C:\Users\T\Desktop\T\nasip\obj\Debug\nasip.giris.resources
+C:\Users\T\Desktop\T\nasip\obj\Debug\nasip.anasayfa.resources
+C:\Users\T\Desktop\T\nasip\obj\Debug\nasip.yenile.resources
+C:\Users\T\Desktop\T\nasip\bin\Debug\zxing.dll
+C:\Users\T\Desktop\T\nasip\bin\Debug\zxing.presentation.dll
+C:\Users\T\Desktop\T\nasip\bin\Debug\zxing.xml
+C:\Users\T\Desktop\T\nasip\bin\Debug\zxing.presentation.xml
+C:\Users\T\Desktop\T\nasip\obj\Debug\nasip.csproj.CopyComplete
