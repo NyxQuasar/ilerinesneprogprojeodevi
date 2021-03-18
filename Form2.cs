@@ -10,7 +10,7 @@ using System.Windows.Forms;
 using System.Data.OleDb;
 using ZXing;
 
-namespace nasip//te varsa
+namespace nasip
 {
     public partial class anasayfa : Form
     {
@@ -118,7 +118,7 @@ namespace nasip//te varsa
 
         void f5()
         {
-            //ev yapımı geleneksel datagrid güncelleyici
+            //el yapımı geleneksel datagrid güncelleyici
             yenile a = new yenile();
             this.Hide();
             a.Show();
@@ -208,7 +208,8 @@ namespace nasip//te varsa
              else
              {
                  veri_oku();
-             } */
+             } 
+             bu da olmadı :D */
 
             f5();
         }

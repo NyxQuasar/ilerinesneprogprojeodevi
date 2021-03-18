@@ -12,7 +12,7 @@ namespace nasip
 {
     public partial class yenile : Form
     {
-        public yenile()
+        public yenile() // tabloyu yenilemek için bir yol.
         {
             InitializeComponent();
         }
