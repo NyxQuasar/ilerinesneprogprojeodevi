@@ -63,6 +63,7 @@ namespace nasip
             this.pictureBox = new System.Windows.Forms.PictureBox();
             this.textbarkod = new System.Windows.Forms.TextBox();
             this.label11 = new System.Windows.Forms.Label();
+            this.button6 = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox)).BeginInit();
             this.SuspendLayout();
@@ -185,6 +186,7 @@ namespace nasip
             // textBox1
             // 
             this.textBox1.Location = new System.Drawing.Point(140, 335);
+            this.textBox1.MaxLength = 11;
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(203, 20);
             this.textBox1.TabIndex = 1;
@@ -192,6 +194,7 @@ namespace nasip
             // textBox2
             // 
             this.textBox2.Location = new System.Drawing.Point(140, 363);
+            this.textBox2.MaxLength = 55;
             this.textBox2.Name = "textBox2";
             this.textBox2.Size = new System.Drawing.Size(203, 20);
             this.textBox2.TabIndex = 2;
@@ -199,6 +202,7 @@ namespace nasip
             // textBox3
             // 
             this.textBox3.Location = new System.Drawing.Point(140, 394);
+            this.textBox3.MaxLength = 44;
             this.textBox3.Name = "textBox3";
             this.textBox3.Size = new System.Drawing.Size(203, 20);
             this.textBox3.TabIndex = 3;
@@ -206,6 +210,7 @@ namespace nasip
             // textBox4
             // 
             this.textBox4.Location = new System.Drawing.Point(140, 431);
+            this.textBox4.MaxLength = 11;
             this.textBox4.Name = "textBox4";
             this.textBox4.Size = new System.Drawing.Size(203, 20);
             this.textBox4.TabIndex = 4;
@@ -213,6 +218,7 @@ namespace nasip
             // textBox5
             // 
             this.textBox5.Location = new System.Drawing.Point(140, 470);
+            this.textBox5.MaxLength = 10;
             this.textBox5.Name = "textBox5";
             this.textBox5.Size = new System.Drawing.Size(203, 20);
             this.textBox5.TabIndex = 5;
@@ -220,6 +226,7 @@ namespace nasip
             // textBox6
             // 
             this.textBox6.Location = new System.Drawing.Point(140, 503);
+            this.textBox6.MaxLength = 10;
             this.textBox6.Name = "textBox6";
             this.textBox6.Size = new System.Drawing.Size(203, 20);
             this.textBox6.TabIndex = 6;
@@ -227,6 +234,7 @@ namespace nasip
             // textBox7
             // 
             this.textBox7.Location = new System.Drawing.Point(140, 534);
+            this.textBox7.MaxLength = 10;
             this.textBox7.Name = "textBox7";
             this.textBox7.Size = new System.Drawing.Size(203, 20);
             this.textBox7.TabIndex = 7;
@@ -234,6 +242,7 @@ namespace nasip
             // textBox8
             // 
             this.textBox8.Location = new System.Drawing.Point(140, 567);
+            this.textBox8.MaxLength = 3276;
             this.textBox8.Name = "textBox8";
             this.textBox8.Size = new System.Drawing.Size(203, 20);
             this.textBox8.TabIndex = 8;
@@ -430,6 +439,23 @@ namespace nasip
             this.label11.TabIndex = 14;
             this.label11.Text = "Barkod No:";
             // 
+            // button6
+            // 
+            this.button6.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.button6.FlatAppearance.BorderSize = 3;
+            this.button6.FlatAppearance.MouseOverBackColor = System.Drawing.Color.LightYellow;
+            this.button6.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button6.Image = ((System.Drawing.Image)(resources.GetObject("button6.Image")));
+            this.button6.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.button6.Location = new System.Drawing.Point(684, 538);
+            this.button6.Name = "button6";
+            this.button6.Size = new System.Drawing.Size(150, 53);
+            this.button6.TabIndex = 18;
+            this.button6.Text = "Program Hakkında";
+            this.button6.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.button6.UseVisualStyleBackColor = false;
+            this.button6.Click += new System.EventHandler(this.button6_Click_1);
+            // 
             // anasayfa
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -437,6 +463,7 @@ namespace nasip
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(1003, 603);
+            this.Controls.Add(this.button6);
             this.Controls.Add(this.label11);
             this.Controls.Add(this.textbarkod);
             this.Controls.Add(this.pictureBox);
@@ -518,5 +545,6 @@ namespace nasip
         private System.Windows.Forms.PictureBox pictureBox;
         private System.Windows.Forms.TextBox textbarkod;
         private System.Windows.Forms.Label label11;
+        private System.Windows.Forms.Button button6;
     }
 }

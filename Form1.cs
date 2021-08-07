@@ -10,10 +10,7 @@ using System.Windows.Forms;
 using System.Data.OleDb;
 
 namespace nasip
-{   //enter ve esc aktif
-    //şifreyi göster/gizle aktif
-    //tab ayarı yapıldı
-    //admin veritabanı bağlı
+{   
     public partial class giris : Form
     {
         public giris()
@@ -35,7 +32,7 @@ namespace nasip
 
         private void checkBox1_CheckedChanged(object sender, EventArgs e)
         {
-            if (checkBox1.Checked)
+            if (checkBox1.Checked) //Şifre gizleme/gösterme
             {
                 textBox2.PasswordChar = '\0';
             }
@@ -45,11 +42,9 @@ namespace nasip
             }
 
         }
-        
         private void button1_Click(object sender, EventArgs e)
         {
             komut.Connection = baglanti;
-
             komut.CommandText = "Select * From yonetim where admintc='" + textBox1.Text + "' and sifre='" + textBox2.Text + "'";
             baglanti.Open();
             OleDbDataReader okuyucu = komut.ExecuteReader();
@@ -58,14 +53,11 @@ namespace nasip
                 anasayfa a = new anasayfa();
                 this.Hide();
                 a.Show();
-                
             }
-
             else
             {
                 MessageBox.Show("Hatalı veya Eksik Giriş Yaptınız!");
             }
-
             baglanti.Close();
         }
 
